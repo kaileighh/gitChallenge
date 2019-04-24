@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct Merge {
+    let label = "Merge"
+}
+
+struct Master {
+    let label = "Master"
+}

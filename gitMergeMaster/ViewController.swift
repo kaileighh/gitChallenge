@@ -19,6 +19,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
     }
+    
+    func updateUI(){
+        let git = Git()
+        let merge = Merge()
+        let master = Master()
+        
+        gitLabel.text = git.label
+        mergeLabel.text = merge.label
+        masterLabel.text = master.label
+        
+    }
 
 
 }
